@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode2v3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+project.xcworkspace
