@@ -11,12 +11,9 @@
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (strong, nonatomic) NSDictionary *recipe;
+@property (weak, nonatomic) IBOutlet UILabel *recipeBody;
 @property (weak, nonatomic) IBOutlet UILabel *recipeTitle;
-@property (weak, nonatomic) IBOutlet UITextView *recipeContent;
 @property (weak, nonatomic) IBOutlet UIImageView *recipeImage;
-@property (weak, nonatomic) IBOutlet UILabel *recipeAuthor;
-
 
 @end

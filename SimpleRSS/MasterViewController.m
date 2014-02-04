@@ -8,6 +8,8 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "SelectViewController.h"
+#import "ImageSizeFixedCell.h"
 
 @implementation MasterViewController
 
@@ -48,15 +50,47 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifer];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        NSLog(@"%s log...", __func__);
     }
     
+//    [self.tableView registerNib:[UINib nibWithNibName:@"Cell" bundle:nil] forCellReuseIdentifier:@"Cell"];
+
+    // TODO: http://rakuishi.com/archives/2994
     NSDictionary *item = [self.items objectAtIndex:indexPath.row];
     cell.textLabel.text = [item objectForKey:@"title"];
     cell.detailTextLabel.text = [item objectForKey:@"body"];
     
-    // TODO: urlから画像sdimage
-    //cell.imageView.image = [item objectForKey:@"image"];
+//    [cell.imageView setImageWithURL:[NSURL URLWithString:[item objectForKey:@"image"]]];
+    [cell.imageView setImageWithURL:[NSURL URLWithString:[item objectForKey:@"image"]] placeholderImage:[UIImage imageNamed:@"placeholder_icon2"]];
+    
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [self tableView:self.tableView cellForRowAtIndexPath:indexPath];
+    CGSize bounds = CGSizeMake(self.tableView.frame.size.width, self.tableView.frame.size.height);
+    UIFont *font = cell.textLabel.font;
+    UIFont *detailFont = cell.detailTextLabel.font;
+    
+    // 文字列全体のサイズを取得
+    CGSize size;
+    CGSize detailSize;
+    
+    if ([NSString instancesRespondToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
+        CGRect rect = [cell.textLabel.text boundingRectWithSize:bounds
+                                                        options:NSStringDrawingUsesLineFragmentOrigin
+                                                     attributes:@{NSFontAttributeName: font}
+                                                        context:nil];
+        CGRect detailRect = [cell.detailTextLabel.text boundingRectWithSize:bounds
+                                                        options:NSStringDrawingUsesLineFragmentOrigin
+                                                     attributes:@{NSFontAttributeName: detailFont}
+                                                        context:nil];
+        size = rect.size;
+        detailSize = detailRect.size;
+    }
+    return size.height + detailSize.height;
+
 }
 
 
@@ -70,7 +104,6 @@
 }
 
 - (IBAction)refreshRSS:(id)sender {
-    NSLog(@"Start Loading");
     [self requestRSS];
 }
 
@@ -93,10 +126,14 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"detailView"]) {
-        NSLog(@"okok3ok");
         DetailViewController *detailViewController = (DetailViewController *)[segue destinationViewController];
         NSDictionary *item = [self.items objectAtIndex:[self.tableView indexPathForSelectedRow].row];
         detailViewController.recipe = item;
+    }
+    else if ([segue.identifier isEqualToString:@"selectView"]) {
+        SelectViewController *selectViewController = (SelectViewController *)[segue destinationViewController];
+        selectViewController.items = self.items;
+
     }
     
 }

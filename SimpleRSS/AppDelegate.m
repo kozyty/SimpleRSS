@@ -12,8 +12,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [UIApplication sharedApplication].statusBarHidden = NO;
+    [self fadeSplashScreen];
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)fadeSplashScreen {
+    UIImage *splash = [UIImage imageNamed:@"Default-568h@2x"];
+    NSLog(@"%@", splash);
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0.0, 640, 1136)];
+    imageView.image = splash;
+    [self.window addSubview:imageView];
+    
+    self.window.alpha = 1.0f;
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.9f];
+    imageView.alpha = 0.0f;
+    [UIView commitAnimations];
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

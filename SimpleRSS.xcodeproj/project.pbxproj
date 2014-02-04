@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67DE99364CB04A40AA942F1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 636EA26CAF2C4F4BB427D982 /* libPods.a */; };
 		9AEFF6A518972B3400C61088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFF6A418972B3400C61088 /* Foundation.framework */; };
 		9AEFF6A718972B3400C61088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFF6A618972B3400C61088 /* CoreGraphics.framework */; };
 		9AEFF6A918972B3400C61088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFF6A818972B3400C61088 /* UIKit.framework */; };
@@ -22,6 +23,12 @@
 		9AEFF6C918972B3400C61088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFF6A818972B3400C61088 /* UIKit.framework */; };
 		9AEFF6D118972B3400C61088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFF6CF18972B3400C61088 /* InfoPlist.strings */; };
 		9AEFF6D318972B3400C61088 /* SimpleRSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFF6D218972B3400C61088 /* SimpleRSSTests.m */; };
+		A23F91C418A062D400534E86 /* 1391493079_icon-ios7-keypad-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = A23F91C318A062D400534E86 /* 1391493079_icon-ios7-keypad-outline.png */; };
+		A23F91C618A0637800534E86 /* 1391493245_icon-ios7-keypad-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = A23F91C518A0637800534E86 /* 1391493245_icon-ios7-keypad-outline.png */; };
+		A23F91C918A0653C00534E86 /* ImageSizeFixedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F91C818A0653C00534E86 /* ImageSizeFixedCell.m */; };
+		A23F91CF18A0788300534E86 /* placeholder_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A23F91CE18A0788300534E86 /* placeholder_icon2.png */; };
+		A23F91D718A0B8D500534E86 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F91D618A0B8D500534E86 /* SelectViewController.m */; };
+		A23F91DB18A0C91400534E86 /* background-shadow320x160@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A23F91DA18A0C91400534E86 /* background-shadow320x160@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		636EA26CAF2C4F4BB427D982 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEFF6A118972B3400C61088 /* SimpleRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEFF6A418972B3400C61088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AEFF6A618972B3400C61088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +64,15 @@
 		9AEFF6CE18972B3400C61088 /* SimpleRSSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRSSTests-Info.plist"; sourceTree = "<group>"; };
 		9AEFF6D018972B3400C61088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AEFF6D218972B3400C61088 /* SimpleRSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRSSTests.m; sourceTree = "<group>"; };
+		A23F91C318A062D400534E86 /* 1391493079_icon-ios7-keypad-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1391493079_icon-ios7-keypad-outline.png"; sourceTree = "<group>"; };
+		A23F91C518A0637800534E86 /* 1391493245_icon-ios7-keypad-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1391493245_icon-ios7-keypad-outline.png"; sourceTree = "<group>"; };
+		A23F91C718A0653C00534E86 /* ImageSizeFixedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSizeFixedCell.h; sourceTree = "<group>"; };
+		A23F91C818A0653C00534E86 /* ImageSizeFixedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSizeFixedCell.m; sourceTree = "<group>"; };
+		A23F91CE18A0788300534E86 /* placeholder_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_icon2.png; sourceTree = "<group>"; };
+		A23F91D518A0B8D500534E86 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		A23F91D618A0B8D500534E86 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		A23F91DA18A0C91400534E86 /* background-shadow320x160@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-shadow320x160@2x.png"; sourceTree = "<group>"; };
+		C07BBC6E987248A0BBBDF8C3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +83,7 @@
 				9AEFF6A718972B3400C61088 /* CoreGraphics.framework in Frameworks */,
 				9AEFF6A918972B3400C61088 /* UIKit.framework in Frameworks */,
 				9AEFF6A518972B3400C61088 /* Foundation.framework in Frameworks */,
+				67DE99364CB04A40AA942F1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +107,7 @@
 				9AEFF6CC18972B3400C61088 /* SimpleRSSTests */,
 				9AEFF6A318972B3400C61088 /* Frameworks */,
 				9AEFF6A218972B3400C61088 /* Products */,
+				C07BBC6E987248A0BBBDF8C3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +127,7 @@
 				9AEFF6A618972B3400C61088 /* CoreGraphics.framework */,
 				9AEFF6A818972B3400C61088 /* UIKit.framework */,
 				9AEFF6C618972B3400C61088 /* XCTest.framework */,
+				636EA26CAF2C4F4BB427D982 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +135,14 @@
 		9AEFF6AA18972B3400C61088 /* SimpleRSS */ = {
 			isa = PBXGroup;
 			children = (
+				A23F91C018A0622900534E86 /* Images */,
 				9AEFF6B318972B3400C61088 /* AppDelegate.h */,
 				9AEFF6B418972B3400C61088 /* AppDelegate.m */,
 				9AEFF6B618972B3400C61088 /* Main.storyboard */,
+				A23F91D518A0B8D500534E86 /* SelectViewController.h */,
+				A23F91D618A0B8D500534E86 /* SelectViewController.m */,
+				A23F91C718A0653C00534E86 /* ImageSizeFixedCell.h */,
+				A23F91C818A0653C00534E86 /* ImageSizeFixedCell.m */,
 				9AEFF6B918972B3400C61088 /* MasterViewController.h */,
 				9AEFF6BA18972B3400C61088 /* MasterViewController.m */,
 				9AEFF6BC18972B3400C61088 /* DetailViewController.h */,
@@ -157,6 +182,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A23F91C018A0622900534E86 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A23F91DA18A0C91400534E86 /* background-shadow320x160@2x.png */,
+				A23F91CE18A0788300534E86 /* placeholder_icon2.png */,
+				A23F91C518A0637800534E86 /* 1391493245_icon-ios7-keypad-outline.png */,
+				A23F91C318A062D400534E86 /* 1391493079_icon-ios7-keypad-outline.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AEFF6D618972B3400C61088 /* Build configuration list for PBXNativeTarget "SimpleRSS" */;
 			buildPhases = (
+				D61EEFA52E46435C920D76D1 /* Check Pods Manifest.lock */,
 				9AEFF69D18972B3400C61088 /* Sources */,
 				9AEFF69E18972B3400C61088 /* Frameworks */,
 				9AEFF69F18972B3400C61088 /* Resources */,
+				6591836F225D4D088D29508C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23F91C618A0637800534E86 /* 1391493245_icon-ios7-keypad-outline.png in Resources */,
 				9AEFF6C018972B3400C61088 /* Images.xcassets in Resources */,
+				A23F91CF18A0788300534E86 /* placeholder_icon2.png in Resources */,
 				9AEFF6AF18972B3400C61088 /* InfoPlist.strings in Resources */,
+				A23F91C418A062D400534E86 /* 1391493079_icon-ios7-keypad-outline.png in Resources */,
+				A23F91DB18A0C91400534E86 /* background-shadow320x160@2x.png in Resources */,
 				9AEFF6B818972B3400C61088 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,12 +291,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6591836F225D4D088D29508C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61EEFA52E46435C920D76D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AEFF69D18972B3400C61088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23F91D718A0B8D500534E86 /* SelectViewController.m in Sources */,
 				9AEFF6B518972B3400C61088 /* AppDelegate.m in Sources */,
+				A23F91C918A0653C00534E86 /* ImageSizeFixedCell.m in Sources */,
 				9AEFF6BB18972B3400C61088 /* MasterViewController.m in Sources */,
 				9AEFF6B118972B3400C61088 /* main.m in Sources */,
 				9AEFF6BE18972B3400C61088 /* DetailViewController.m in Sources */,
@@ -381,6 +458,7 @@
 		};
 		9AEFF6D718972B3400C61088 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07BBC6E987248A0BBBDF8C3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,6 +472,7 @@
 		};
 		9AEFF6D818972B3400C61088 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07BBC6E987248A0BBBDF8C3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,6 +545,7 @@
 				9AEFF6D818972B3400C61088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AEFF6D918972B3400C61088 /* Build configuration list for PBXNativeTarget "SimpleRSSTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +554,7 @@
 				9AEFF6DB18972B3400C61088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>87C5BE1D-9C3C-44D6-BA96-4E51238B5D81</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleRSS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D120A3E8-5852-447D-B441-54EFE0D76B7F</key>
+		<string>ssh://github.com/kozyty/SimpleRSS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleRSS.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D120A3E8-5852-447D-B441-54EFE0D76B7F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kozyty/SimpleRSS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D120A3E8-5852-447D-B441-54EFE0D76B7F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D120A3E8-5852-447D-B441-54EFE0D76B7F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SimpleRSS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
