@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  SimpleRSS
 //
-//  Created by shuichi.wada on 2014/01/28.
-//  Copyright (c) 2014年 shuichi.wada. All rights reserved.
+//  Created by kozyty on 2014/01/28.
+//  Copyright (c) 2014年 kozyty. All rights reserved.
 //
 
 #import "AppDelegate.h"

@@ -3,7 +3,7 @@
 //  SimpleRSS
 //
 //  Created by kozyty on 2014/02/04.
-//  Copyright (c) 2014年 shuichi.wada. All rights reserved.
+//  Copyright (c) 2014年 kozyty. All rights reserved.
 //
 
 #import "ImageSizeFixedCell.h"
@@ -36,8 +36,6 @@
     self.textLabel.frame = CGRectMake(65.0f, self.textLabel.frame.origin.y, self.frame.size.width - 70.0f, self.textLabel.frame.size.height);
     self.detailTextLabel.frame = CGRectMake(65.0f, self.detailTextLabel.frame.origin.y, self.frame.size.width - 70.0f, self.detailTextLabel.frame.size.height);
 
-
-    
 //    float desiredWidth = 60;
 //    float w=self.imageView.frame.size.width;
 //    
